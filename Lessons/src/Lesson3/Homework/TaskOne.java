@@ -11,8 +11,8 @@ public class TaskOne {
         for (int i: mas) {
             System.out.printf("%d ", i);
         }
-        System.out.println("");
-        System.out.println("");
+        System.out.println();
+        System.out.println();
 
         System.out.println("Show the array as a column");
         for (int i: mas) {
