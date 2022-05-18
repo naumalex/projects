@@ -3,9 +3,8 @@ package Lesson3.Homework;
 public class TaskTwo{
     public static void main (String[] args) {
         int[] mas = new int[50];
-        mas[0] = 1;
-        for (int i = 1; i < 50; i++)
-            mas[i] = mas[i - 1] + 2;
+        for (int i = 0; i < 50; i++)
+            mas[i] = 2 * i + 1;
 
         System.out.println("Show the array");
         for (int i : mas) {
