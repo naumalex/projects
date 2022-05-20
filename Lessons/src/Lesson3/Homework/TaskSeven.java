@@ -19,6 +19,6 @@ public class TaskSeven {
                     max = mas[i];
             }
         }
-        System.out.printf("%nlast entry index of max element: %d", lastIndexOfMaxElement );
+        System.out.printf("%nLast entry index of max element: %d", lastIndexOfMaxElement );
     }
 }
