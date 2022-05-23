@@ -12,6 +12,7 @@ public class TaskTen {
             n = sc.nextInt();
             if (n <= 3) {
                 System.out.println("Entered value is less or equal 3");
+                System.exit(0);
             }
         } else
             System.out.println("Invalid value entered");
